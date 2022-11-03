@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.contenedorheader{
+    background-color: rgb(247, 27, 27);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.contenedorheader ul, nav{
+    background-color: rgb(44, 241, 255);
+    text-align: center;
+    line-height: 1.9;
+}
+
+.contenedor__descripcion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section_servicios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.servicios__izquierda_sec{
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.redes img{
+    width: 70px;
+}

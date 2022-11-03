@@ -8,6 +8,9 @@
     <!--Tipografia google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="tablets.css" media="screen and (max-width: 667px)">
+    <link rel="stylesheet" href="iphone.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="movilandroid.css" media="screen and (max-width: 720px)">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,32 +21,31 @@
         </div>
         <nav>
             <ul>
-              <li><a href="#">Index</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Nosotros</a></li>
-              <li><a href="#">Costos</a></li>
-              <li><a href="#">Contáctanos</a></li>
+              <li><a href="#index">Index</a></li>
+              <li><a href="#nosotros">Nosotros</a></li>
+              <li><a href="#costos">Costos</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#contacto">Contáctanos</a></li>
             </ul>
           </nav>
         </section>
         <hr class="lineadec">
     </header>
     <main>
-        <section class="imagencentral">
+        <section class="imagencentral" id="index">
             <h1>BIENVENIDOS A TU LUGAR DE DESCANSO</h1>
-            <video src="./videocasa/WhatsApp Video 2022-08-19 at 3.31.21 PM (1).mp4" controls preload autoplay="auto"></video>
+            <video src="./videocasa/WhatsApp Video 2022-08-19 at 3.31.21 PM (1).mp4" controls preload="auto"></video>
            
         </section>
     </main>
         <section>
             <div class="frase">
-                <p>Disfruta unos dias de merecido descanso junto a tu familia en esta linda casa
-                    confortable.
+                <p><i><p>Disfruta unos dias de merecido descanso en esta linda casa para vacacionar junto a tu familia, amigos, en un lugar tranquilo lejos de la ciudad y de la rutina animate llama ya y reserva tu estadia.</p></i>
                 </p>
             </div>
         </section>
         <section>
-            <div class="contenedor__descripcion">
+            <div class="contenedor__descripcion" id="nosotros">
                 <h2>Nosotros</h2>
                 <div class="descripcion__izquierda">
                     <img src="./imgs/casafland.jpeg" alt="">
@@ -62,61 +64,112 @@
                         hacer una reservaciòn de $:50.000 y cuando las personas
                         lleguen a la casa se cercioren de que todo esta bien se 
                         hace el desembolso del restante del dinero para mayor
-                        seguridad de nuestros clientes, es importante destacar
-                        que para el ingreso a la casa vacacional, se debe entregar
-                        una autorizaciòn de ingreso con los nombres y numeros de 
-                        cedula de las personas que van a ingresar al conjunto 
-                        y la placa del vehiculo, ya que es un requisito directamente
-                        de administraciòn.
+                        seguridad de nuestros clientes.
                     </p>
                 </div> 
                 
             </div>
         </section>
         <section>
-            <div class="servicios">
-                <h2>Servicios</h2>
+            <div class="servicios" id="costos">
+                <h2>Costos</h2 >
             </div>
             <div class="contenedor__servicios">
-                <div class="izquierda__servicios">
                     <div class="box__servicios">
-                        <h3>5 personas</h3>
+                        <h3>5 personas o menos</h3>
                         <img src="./imgs/dinero.png" alt="">
-                        <p><b>$:50.000</b> por persona la noche</p>
+                        <p><b>$:40.000</b> por persona la noche</p>
+                        <p>Depende del numero de noches</p>
 
                     </div>
                     <div class="box__servicios">
-                        <h3>5 personas</h3>
+                        <h3>2 personas</h3>
                         <img src="./imgs/dinero.png" alt="">
                         <p> <b>$:50.000</b> por persona la noche</p>
+                        <p>Depende del numero de noches</p>
 
                         
                     </div>
                     <div class="box__servicios">
-                        <h3>5 personas</h3>
+                        <h3>10 personas o mas</h3>
                         <img src="./imgs/dinero.png" alt="">
-                        <p> <b>$:50.000</b>  por persona la noche</p>
+                        <p> <b>$:30.000</b>  por persona la noche</p>
+                        <p>Depende del numero de noches</p>
+                        
 
                         
                     </div>
                     <div class="box__servicios">
-                        <h3>5 personas</h3>
+                        <h3>12 personas</h3>
                         <img src="./imgs/dinero.png" alt="">
-                        <p><b>$:50.000</b> por persona la noche</p>
+                        <p><b>$:28.000</b> por persona la noche</p>
+                        <p>Depende del numero de noches</p>
+
+                    </div>
+                    <div class="box__servicios">
+                        <h3>12 personas o mas</h3>
+                        <img src="./imgs/dinero.png" alt="">
+                        <p><b>$:28.000</b> por persona la noche</p>
+                        <p>Depende del numero de noches</p>
+                        
+                    </div>
+                        <div class="box__servicios">
+                            <h3>15 personas o mas</h3>
+                            <img src="./imgs/dinero.png" alt="">
+                            <p> <b>$:25.000</b> por persona la noche</p>
+                            <p>Depende del numero de noches</p>
 
                         
                     </div>
-
-                </div>
-
-                <div class="derecha__servicios">
-                    <img src="./imgs/cliente.png" alt="">
                   
                 </div>
-            </div>
-        </section>
-      
-        
+            </section>
+            <section>
+                <div class="frase__dos">
+                    <p> <b><i>No esperes mas realiza tu reservaciòn y pasa unos dias de merecido descanso fuera de la ciudad y del estres del trabajo junto a tu familia</i></b>  </p>
+
+                </div>    
+              </section>
+              <div class="servicios_subt">
+                <h2>Servicios</h2>
+              </div>
+              <section>
+                    <div class="section_servicios" id="servicios">
+                        <div class="servicios__izquierda_sec">
+                            <p>Alquilamos esta linda Casa por dias para un buen descanso de nuestros clientes
+                                la casa es muy acojedora, la piscina es comunal grande muy bonita aseada,
+                                las instalaciones de la casa se pueden apreciar en el video de inicio, soicita
+                                mas informaciòn a los telefonos aparecen a la final de la pagina.
+                            </p>
+                        </div>
+                        <div class="servicios__derecha_sec">
+                            <img src="./imgs/porteria.jpeg" alt="">
+                        </div>
+
+                    </div>
+
+              </section>
+              <section>
+                <footer class="footer_contacto" id="contacto">
+                    <div class="contacto_footer_h2">
+                        <p><i><b>Contacto</b></i></p>
+                        <p><b>313-213-06-15</b></p>
+                        <p><b>314-462-78-92</b></p>
+                        <p><i>Escribenos al WhatsApp a alguno de estos numeros</i></p>
+                    </div>
+                    <div class="redes">
+                        <a href=""> <img src="./imgs/facebook.png" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?phone=3132130615&text=Nos%20comunicaremos%20contigo%20al%20instante"> <img src="./imgs/whatsapp.png" alt=""></a>
+                        <a href="">  <img src="./imgs/instagram.png" alt=""></a>
+                      
+                     
+
+                    </div>
+                    
+
+                </footer>
+
+              </section>
     
   
  
