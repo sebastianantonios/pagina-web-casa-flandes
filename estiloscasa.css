@@ -65,10 +65,6 @@ header{
     color: rgb(0, 102, 255);
 }
 
-
-
-
-
 .lineadec{
     background-color: rgb(0, 102, 255);
     height: 3px;
@@ -149,7 +145,7 @@ header{
 
 .descripcion__derecha{
     width: 50%;
-    background-color: yellow;
+    background-color: rgba(105, 14, 224, 0.486);
     float: left;
     display: flex;
     justify-content: center;
